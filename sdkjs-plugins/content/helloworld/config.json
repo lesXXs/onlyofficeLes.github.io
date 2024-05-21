@@ -8,6 +8,7 @@
             "url"                 : "index.html",
             "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
             "isViewer"            : false,
+            "isSystem"            : true,
             "EditorsSupport"      : ["word"],
             "isVisual"            : false,
             "initDataType"        : "none",
