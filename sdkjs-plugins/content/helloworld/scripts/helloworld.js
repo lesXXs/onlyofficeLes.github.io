@@ -78,7 +78,7 @@
         function handleContentReady() {
             // 获取文档内容
             var documentContent = Api.GetDocumentContent();
-
+            console.log(documentContent)
             // 提取新增文本
             var newText = extractNewText(documentContent);
 
