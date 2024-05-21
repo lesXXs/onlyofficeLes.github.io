@@ -5,7 +5,7 @@
         function handleContentReady() {
             // 获取文档内容
             var documentContent = Api.GetDocumentContent();
-            console.log("文档内容："+documentContent)
+            console.log("document content："+documentContent)
             // 提取新增文本
             var newText = extractNewText(documentContent);
 
@@ -36,7 +36,7 @@
     // 提取实体的函数
     function extractEntities(text) {
         var entities = [];
-        var regex = /公司/g; // 使用正则表达式匹配"公司"
+        var regex = /company/g; // 使用正则表达式匹配"公司"
         var match;
 
         while ((match = regex.exec(text)) !== null) {
@@ -72,7 +72,7 @@
 
             // 创建框内的内容
             var oParagraph = Api.CreateParagraph();
-            oParagraph.AddText("山东龙羲含章");
+            oParagraph.AddText("company content");
             oFrame.InsertContent([oParagraph]);
 
             // 将范围和框插入文档
