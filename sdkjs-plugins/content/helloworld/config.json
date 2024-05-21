@@ -10,7 +10,7 @@
             "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
             "isViewer"            : false,
             "EditorsSupport"      : ["word"],
-            "isVisual"            : false,
+            "isVisual"            : true,
             "isModal"             : true,
             "isInsideMode"        : false,
             "initDataType"        : "none",
